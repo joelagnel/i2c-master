@@ -136,7 +136,7 @@ module tb_i2c_master;
 		.i_addr_data(i_addr_data),
 		.i_cmd(i_cmd),
 		.i_strobe(i_strobe),
-		.i_clk(i_clk),
+		.input_clk(i_clk),
 		.io_sda(io_sda_w),
 		.io_scl(io_scl),
 		.o_data(o_data),
@@ -213,4 +213,3 @@ module tb_i2c_master;
 	end
       
 endmodule
-
